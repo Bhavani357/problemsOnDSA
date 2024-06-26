@@ -34,7 +34,7 @@ class Stack{
     
 }
 
-let temNum = 1221
+let temNum = -1221
 let number = temNum
 
 const obj = new Stack()
@@ -52,3 +52,4 @@ if(reversedNum === temNum){
 }else{
     console.log(false)
 }
+console.log(obj)
